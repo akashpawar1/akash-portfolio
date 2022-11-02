@@ -2,43 +2,86 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Akash Pawar Component library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
+    <h1 id='lib-header'>Akash' Component library</h1>
+    <p>I'm <strong>Akash Pawar</strong> attending neog.camp and currently completing levelZero</p>
+    <p class='para'>this is a Component library it is created to help creating consistency in my project's <p class="para">
+
     <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest</h2>
+    <p>This is normal text. created for paragraph's</p>
+    <p class="small-text">this is relativly smaller text</p>
+
+    <hr>
+    <h2>@container</h2>
+
+    <h3>@fluid container</h3>
+    <div class="container-fluid container">
+      This is my fluid container. It will go full width of page. With some mrgin.
+    </div>
+
+    <h3>@center container</h3>
+    <div class=" container container-center">
+      This is going to be a center container. It will go till a given width and center content.
+    </div>
+
+    <hr>
+
+    <h2>@link</h2>
+    <a href="#" class="link-primary link">primary Link</a>
+    <a href="#" class="link-secondary link">Secondary Link</a>
+
+    <hr>
+
     <h2>@list</h2>
-    <ul>
+    <h3>unordered list</h3>
+    This list will not have bullet
+    <ul class="list-non-bullet">
       <li>1. akash</li>
       <li>item2</li>
       <li> item 3</li>
     </ul>
+
+    <h3> unordered inline list </h3>
     <ul>
-      <li>Inline item 1</li>
-      <li>Inline item 2</li>
-      <li>Inline item 3</li>
+      <li class="list-item-inline">Inline item 1</li>
+      <li class="list-item-inline">Inline item 2</li>
+      <li class="list-item-inline">Inline item 3</li>
     </ul>
 
-    <ol>
+    <h3>reverse ordered list</h3>
+    <ol reversed>
       <li>milk</li>
       <li>eggs</li>
       <li>bread</li>
     </ol>
-
     <hr>
-    //nav
-    <nav>
-      <div>
+
+    <h2>@nav</h2>
+    <nav class="navigation container">
+      <div class="nav-brand">
         iAmBrand
       </div>
-      <ul>
-        <li>
-          <a href="/">home</a>
+      <ul class="list-non-bullet nav-pill">
+        <li class="list-item-inline">
+          <a href="/" class="link">home</a>
         </li>
-        <li>
-          <a href="/">products</a>
+        <li class="list-item-inline">
+          <a href="/" class="link">products</a>
         </li>
-        <li>
-          <a href="/">about</a>
+        <li class="list-item-inline">
+          <a href="/" class="link">about</a>
         </li>
       </ul>
     </nav>
@@ -47,37 +90,53 @@
 
     <h2>header</h2>
 
-    <header>
-      <img src="" alt="">
-      <h1>heading inside </h1>
+    <header class="hero">
+      <img src="undraw_i_can_fly_-7-egl.svg" alt="" class="hero-img">
+      <h1 class="hero-heading">heading inside header</h1>
       <!--unDraw website-->
       <!-- unslash -->
     </header>
 
     <hr>
 
-    <h2>section</h2>
+    <h2>@section</h2>
 
-    <section>
-      <h3>white section</h3>
-      <p>this will have white background</p>
+    <section class="section">
+      <div class="container container-center">
+        <h1>white section</h1>
+        <p class="para">this will have white background</p>
+      </div>
     </section>
 
-    <section>
-      <h3>off white section</h3>
-      <p>This will have off white background</p>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>off white section</h1>
+        <p class="para">This will have off white background</p>
+      </div>
     </section>
 
     <hr>
 
     <h2>footer</h2>
 
-    <footer>
+    <footer class="footer">
       <div>Some small heading inside footer</div>
-      <ul>
-        <li>socialone</li>
-        <li>socialtwo</li>
-        <li>socialthree</li>
+      <ul class="list-non-bullet">
+        <li class="list-item-inline">
+          <a href="#" class="link">
+            socialone
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a href="#" class="link">
+            socialtwo
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a href="#" class="link">
+            socialthree
+          </a>
+        </li>
       </ul>
     </footer>
   </body>
