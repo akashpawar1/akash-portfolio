@@ -113,11 +113,7 @@ hr {
 /*------- section --------*/
 .section {
   padding: 1rem 1rem;
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.section h1,.section h2,.section h3 {
+  margin: 2rem 0rem;
   text-align: center;
 }
 
@@ -126,7 +122,7 @@ hr {
   border-radius: 1rem;
 }
 
-/*------- section --------*/
+/*------- footer --------*/
 
 .footer {
   background-color: var(--primary-color);
