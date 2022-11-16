@@ -18,6 +18,13 @@ hr {
   margin: 1.5rem 0;
 }
 
+/*------- text --------*/
+.small {
+  margin: -0.5rem 0;
+  padding: 0;
+}
+
+
 /*------- container --------*/
 .container {
   padding-right: 1rem;
@@ -36,8 +43,7 @@ hr {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 .link-active {
