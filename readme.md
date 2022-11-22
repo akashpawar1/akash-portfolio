@@ -1,7 +1,4 @@
-# this is just for test
-
-
-This is my portfolio website
+# This is my portfolio website
 
 ## Project's
 So far I have completed project in html, css, JavaScript, React, API's.
