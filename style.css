@@ -73,6 +73,10 @@ hr {
   padding: 0rem 0.5rem;
 }
 
+.showcase-list {
+  text-align: center;
+  margin: 10rem inherit;
+}
 /*------- Nav --------*/
 .navigation {
   background-color: var(--primary-color);
